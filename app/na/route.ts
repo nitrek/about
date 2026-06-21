@@ -1,3 +1,6 @@
+export const dynamic = 'force-static';
+export const revalidate = 0;
+
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { NextResponse } from 'next/server';
